@@ -1,0 +1,617 @@
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerBold.eot');
+    src: local('Gilmer Bold'), local('GilmerBold'),
+        url('../font/GilmerBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerBold.woff2') format('woff2'),
+        url('../font/GilmerBold.woff') format('woff'),
+        url('../font/GilmerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerLight.eot');
+    src: local('Gilmer Light'), local('GilmerLight'),
+        url('../font/GilmerLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerLight.woff2') format('woff2'),
+        url('../font/GilmerLight.woff') format('woff'),
+        url('../font/GilmerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerHeavy.eot');
+    src: local('Gilmer Heavy'), local('GilmerHeavy'),
+        url('../font/GilmerHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerHeavy.woff2') format('woff2'),
+        url('../font/GilmerHeavy.woff') format('woff'),
+        url('../font/GilmerHeavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerMedium.eot');
+    src: local('Gilmer Medium'), local('GilmerMedium'),
+        url('../font/GilmerMedium.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerMedium.woff2') format('woff2'),
+        url('../font/GilmerMedium.woff') format('woff'),
+        url('../font/GilmerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: url('GilmerRegular.eot');
+    src: local('Gilmer Regular'), local('GilmerRegular'),
+        url('../font/GilmerRegular.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerRegular.woff2') format('woff2'),
+        url('../font/GilmerRegular.woff') format('woff'),
+        url('../font/GilmerRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilmer Outline';
+    src: url('GilmerOutline.eot');
+    src: local('Gilmer Outline'), local('GilmerOutline'),
+        url('../font/GilmerOutline.eot?#iefix') format('embedded-opentype'),
+        url('../font/GilmerOutline.woff2') format('woff2'),
+        url('../font/GilmerOutline.woff') format('woff'),
+        url('../font/GilmerOutline.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Black.eot');
+    src: local('FractulAlt-Black'),
+        url('../font/FractulAlt-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Black.woff2') format('woff2'),
+        url('../font/FractulAlt-Black.woff') format('woff'),
+        url('../font/FractulAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Bold.eot');
+    src: local('FractulAlt-Bold'),
+        url('../font/FractulAlt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Bold.woff2') format('woff2'),
+        url('../font/FractulAlt-Bold.woff') format('woff'),
+        url('../font/FractulAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-BlackItalic.eot');
+    src: local('../font/FractulAlt-BlackItalic'),
+        url('../font/FractulAlt-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-BlackItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-BlackItalic.woff') format('woff'),
+        url('../font/FractulAlt-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-ExtraBold.eot');
+    src: local('FractulAlt-ExtraBold'),
+        url('../font/FractulAlt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-ExtraBold.woff2') format('woff2'),
+        url('../font/FractulAlt-ExtraBold.woff') format('woff'),
+        url('../font/FractulAlt-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-BoldItalic.eot');
+    src: local('FractulAlt-BoldItalic'),
+        url('../font/FractulAlt-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-BoldItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-BoldItalic.woff') format('woff'),
+        url('../font/FractulAlt-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-ExtraBoldItalic.eot');
+    src: local('FractulAlt-ExtraBoldItalic'),
+        url('../font/FractulAlt-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-ExtraBoldItalic.woff') format('woff'),
+        url('../font/FractulAlt-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt Hairline';
+    src: url('FractulAlt-Hairline.eot');
+    src: local('FractulAlt-Hairline'),
+        url('../font/FractulAlt-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Hairline.woff2') format('woff2'),
+        url('../font/FractulAlt-Hairline.woff') format('woff'),
+        url('../font/FractulAlt-Hairline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt Hairline';
+    src: url('FractulAlt-HairlineItalic.eot');
+    src: local('FractulAlt-HairlineItalic'),
+        url('../font/FractulAlt-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-HairlineItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-HairlineItalic.woff') format('woff'),
+        url('../font/FractulAlt-HairlineItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Italic.eot');
+    src: local('FractulAlt-Italic'),
+        url('../font/FractulAlt-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Italic.woff2') format('woff2'),
+        url('../font/FractulAlt-Italic.woff') format('woff'),
+        url('../font/FractulAlt-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Light.eot');
+    src: local('FractulAlt-Light'),
+        url('../font/FractulAlt-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Light.woff2') format('woff2'),
+        url('../font/FractulAlt-Light.woff') format('woff'),
+        url('../font/FractulAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-LightItalic.eot');
+    src: local('FractulAlt-LightItalic'),
+        url('../font/FractulAlt-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-LightItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-LightItalic.woff') format('woff'),
+        url('../font/FractulAlt-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Medium.eot');
+    src: local('FractulAlt-Medium'),
+        url('../font/FractulAlt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Medium.woff2') format('woff2'),
+        url('../font/FractulAlt-Medium.woff') format('woff'),
+        url('../font/FractulAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-MediumItalic.eot');
+    src: local('FractulAlt-MediumItalic'),
+        url('../font/FractulAlt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-MediumItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-MediumItalic.woff') format('woff'),
+        url('../font/FractulAlt-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Regular.eot');
+    src: local('FractulAlt-Regular'),
+        url('../font/FractulAlt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Regular.woff2') format('woff2'),
+        url('../font/FractulAlt-Regular.woff') format('woff'),
+        url('../font/FractulAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-SemiBold.eot');
+    src: local('FractulAlt-SemiBold'),
+        url('FractulAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('FractulAlt-SemiBold.woff2') format('woff2'),
+        url('FractulAlt-SemiBold.woff') format('woff'),
+        url('FractulAlt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-SemiBoldItalic.eot');
+    src: local('FractulAlt-SemiBoldItalic'),
+        url('../font/FractulAlt-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-SemiBoldItalic.woff') format('woff'),
+        url('../font/FractulAlt-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-ThinItalic.eot');
+    src: local('FractulAlt-ThinItalic'),
+        url('../font/FractulAlt-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-ThinItalic.woff2') format('woff2'),
+        url('../font/FractulAlt-ThinItalic.woff') format('woff'),
+        url('../font/FractulAlt-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fractul Alt';
+    src: url('FractulAlt-Thin.eot');
+    src: local('FractulAlt-Thin'),
+        url('../font/FractulAlt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/FractulAlt-Thin.woff2') format('woff2'),
+        url('../font/FractulAlt-Thin.woff') format('woff'),
+        url('../font/FractulAlt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilmer','Gilmer Outline','Fractul Alt';
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header {
+	padding: 25px 0px;
+	width: 100%;
+	position: absolute;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 10%;
+}
+
+.menu {
+	width: 60%;
+}
+.menu li {
+	list-style: none;
+	display: inline;
+}
+
+.menu li ul {
+	display: inherit;
+}
+
+.menu li ul a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #180E73;
+	font-family: 'Gilmer';
+	padding: 10px;
+}
+
+.main-btn {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.btn-a {
+	border: 2px solid #486AF6;
+	padding: 15px 30px;
+    
+}
+
+.btn-a a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #180E73;
+}
+
+
+
+.btn {
+	border: 2px solid #486AF6;
+	padding: 15px 30px;
+	background: #486AF6;
+	max-width: 110px;
+	text-align: center;
+}
+
+.btn a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #180E73;
+    background: #486AF6;
+	color: white;
+}
+
+.finding {
+	width: 100%;
+	background-image: url(../images/Vector\ 1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top: 200px;
+}
+
+
+.finding-text {
+	width: 50%;
+}
+.finding-img {
+	width: 50%;
+    text-align: center;
+}
+
+.finding-h1 {
+	font-family: Fractul Alt;
+	color: #180E73;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 75.8px;
+	padding-top: 45px;
+	margin: 0;
+}
+
+.finding-p {
+	font-size: 16px;
+	color: #9F9F9F;
+	padding: 15px 0px;
+	line-height: 25px;
+}
+
+
+.industry {
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.industry-text {
+	width: 100%;
+	text-align: center;
+    margin: 0;
+}
+
+.industry-h1 {
+	color: #180E73;
+	font-size: 48px;
+	font-family: Fractul Alt;
+	margin: 0;
+    position: relative;
+}
+
+.industry-h1::after {
+	content: "";
+	position: absolute;
+	background-image: url(../images/Highlight_05.png);
+	width: 38px;
+	height: 56px;
+	top: -26%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: auto;
+}
+
+.industry-p {
+	color: #9F9F9F;
+	font-size: 14px;
+	line-height: 21px;
+    padding-top: 14px;
+}
+
+.main-industry {
+	width: 29%;
+	background-color: #F2F4F6;
+	padding: 70px 20px;
+	margin-top: 65px;
+    position: relative;
+}
+
+.img-a img {
+	padding: 14px;
+	border-radius: 43px;
+	background: white;
+}
+
+.industry-h2-a {
+	color: #180E73;
+	font-size: 24px;
+	font-family: Fractul Alt;
+}
+
+.industry-p-a {
+	color: #9F9F9F;
+	font-size: 16px;
+}
+
+.industry .btn {
+	border: 2px solid #486AF6;
+	padding: 15px 30px;
+	background: #486AF6;
+	max-width: 110px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.main-industry::after {
+	content: "";
+	position: absolute;
+	background-image: url(../images/Group.png);
+	width: 38px;
+	height: 56px;
+	top: 44%;
+	left: auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: -35px;
+}
+.main-industry:last-child::after {
+	width: 0;
+}
+
+.first {
+	background-color: #F2F4F6;
+	padding: 100px 0px;
+	width: 100%;
+}
+
+.accordion-a {
+	width: 48%;
+}
+.main-accordion {
+	margin-bottom: 25px;
+}
+.accordion {
+	background-color: #fff;
+	color: #180E73;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	transition: 0.4s;
+	font-size: 24px;
+	font-family: Fractul Alt;
+}
+  
+  
+.accordion::after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	background: #F2F4F6;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 32px;
+}
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .panel p {
+	font-size: 14px;
+	color: #9F9F9F;
+}
+
+
+.first-text {
+	width: 48%;
+	padding-top: 65px;
+	padding-left: 70px;
+}
+
+.f-h1 {
+	color: #180E73;
+	font-size: 48px;
+	font-family: Fractul Alt;
+	margin: 0;
+    position: relative;
+}
+
+.f-h1::after {
+	content: "";
+	position: absolute;
+	background-image: url(../images/Group\(1\).png);
+	width: 38px;
+	height: 56px;
+	top: -26%;
+	left: 29%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: auto;
+}
+
+.f-p {
+	color: #9F9F9F;
+	font-size: 14px;
+}
